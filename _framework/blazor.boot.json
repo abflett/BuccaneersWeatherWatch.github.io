@@ -5,19 +5,12 @@
     "appsettings.json"
   ],
   "debugBuild": false,
-  "debugLevel": 0,
-  "diagnosticTracing": null,
   "entryAssembly": "BuccaneersWeatherWatch.Web",
-  "environmentVariables": null,
-  "extensions": {
-    "blazor": { }
-  },
   "icuDataMode": 0,
   "linkerEnabled": true,
-  "pthreadPoolSize": null,
   "resources": {
     "assembly": {
-      "BuccaneersWeatherWatch.Web.dll": "sha256-gaSDihotUtjgHoFM\/bfY++ZUmetaIiAJ9LYjm8lMIVU=",
+      "BuccaneersWeatherWatch.Web.dll": "sha256-p27M\/7hAYyRCtURbmXUQ7wJEStREGOGPUcYWLDnOGEg=",
       "Microsoft.AspNetCore.Components.dll": "sha256-4D1RMEt7h7ZYII1DxvO2ZVPqnP9Nq1qgCX\/RCHbOXrk=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-oB3n8YfftYncunSAlMjsfYKCx36K35GYRDJth0bz8Sw=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-Bjdm+4LSCj1lB21gLcrzafvER+pMqgjEsMKA80h8Z6A=",
@@ -36,11 +29,10 @@
       "Microsoft.Extensions.Primitives.dll": "sha256-eXvGx2jcjpTPEJoAHBsW\/VuMPbNyyU+AsuhPmkzSSRY=",
       "Microsoft.JSInterop.dll": "sha256-PceS3GzMoFOjoaqqdj7Fa8hjMKvKzU3oYAqfxXRuVos=",
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-rCEiCTvZ4q9Hh8faiYWMd8w8UxYteM1bNxGJ376zsmU=",
-      "MudBlazor.dll": "sha256-g3PsKmCm4TwyoQq4hB1ElVDp7Bw65YTWXwR7kcXrHIs=",
-      "netstandard.dll": "sha256-RGSAUuCcqfoWjYEqv5LZFXOM9MoU3fzj0VFUS+pmDxU=",
-      "Newtonsoft.Json.dll": "sha256-cs8pHUurDt0IqbB8YXPh560au3q3J\/1wRL9jBddRVmE=",
+      "MudBlazor.dll": "sha256-7hSFm\/c5VVc8BEDdBsTMJqu\/k0weU7u1iv4sUuhPbjY=",
+      "Newtonsoft.Json.dll": "sha256-IsZJ91\/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=",
       "System.Collections.Concurrent.dll": "sha256-jxLdtyKpaGdDi1vcOENdJjNOTjKbNQrykRcNow3CVLc=",
-      "System.Collections.dll": "sha256-CWOGhOzOgQKofjjnQCaijQQ4fM+r5P1hIhUZuV2Q7b0=",
+      "System.Collections.dll": "sha256-0N2qFg5wgdPMUbdRJoBRO9u\/zToMJ\/VO81KBeFYrEI8=",
       "System.Collections.NonGeneric.dll": "sha256-xGKBjzeikq\/awFRH8S3rq3LJXOoc0gm88z8Y8K1xmo0=",
       "System.Collections.Specialized.dll": "sha256-cJCoTyJoHdseRmRN6L9DsC6k8+O1LwfdvHmYPw8EOs0=",
       "System.ComponentModel.Annotations.dll": "sha256-UoD4ZaTasKLoxukNxIiuOZrXkCVhbGJUS4iPP8USB28=",
@@ -53,35 +45,40 @@
       "System.dll": "sha256-Dk7xQ4Zqn\/2wU4QbDAhlgPpc7jA2D1YoJQJI6arod9g=",
       "System.Drawing.dll": "sha256-wLiIEkOflIX+Z5xloiAAhwCMWIrpSGCIFzyyI\/zZvO8=",
       "System.Drawing.Primitives.dll": "sha256-6P4kjpL9wL\/msZlS8B7XERQqikbwFAQczMLtWbDvG8s=",
-      "System.Linq.dll": "sha256-001U2RcWcolOK\/N9f8x0jmyOMUjWSCf7voUHLw6EpKI=",
+      "System.Linq.dll": "sha256-1ufYIF5vmx1MTqocen+6PjXryADt3ZtOMTIZWbOL4Qk=",
       "System.Linq.Expressions.dll": "sha256-1tletdrhGKGdpNVFvFJM0UtscFRazt2se1Jej2dZK0s=",
       "System.Memory.dll": "sha256-KLyizTVNr5OAaObAHVC88i8JkxTnl6zkSFB0xJtwgEM=",
       "System.Net.Http.dll": "sha256-Fv3tyQPwNyLcp21p7lspoRAxk6w\/PAwlRjPOaN62Pi4=",
       "System.Net.Http.Json.dll": "sha256-jqiWkdkX1SMtHYGHrhR2MVNut1VO9MF88dUPlXSza8E=",
       "System.Net.Primitives.dll": "sha256-zrVQjXh8wAhVDLYNiJ7of7UD+VLRboiF1RKuAK8aI2U=",
-      "System.ObjectModel.dll": "sha256-TwVIsTlEPUOVoYYS2oRzEnWRHtdqkeMEznUeHW7UpW0=",
-      "System.Private.CoreLib.dll": "sha256-o9HHxvBOSkBi7NBwAsA13WDkuLJvB3yaGl9BuBwqFqo=",
+      "System.ObjectModel.dll": "sha256-QSsZ+pUn+xv\/HnNuB+aXFaW27jwbOdNkw5q4MBvYt1k=",
+      "System.Private.CoreLib.dll": "sha256-0vvfE3RAL8JSDw+E1ZBZb87oXFsy\/b+2fspmmwOXRqc=",
       "System.Private.Uri.dll": "sha256-4wrM94eErMFgMIOUql6bDUujoDUNJo1TejGlMkLzIpQ=",
       "System.Private.Xml.dll": "sha256-9DSyOlbfuXQZPgRqJAyaMqzulpOZMYthtMEvb9ADxfg=",
       "System.Private.Xml.Linq.dll": "sha256-RK9pO6hzVWIGtr9gyuszntd3bmdsoNSJIqyMEVizRzg=",
-      "System.Runtime.dll": "sha256-qI33E3kJKPK5SgknJojhSKOpvGPh1HqwZjUzXHnp2I8=",
+      "System.Reflection.Emit.ILGeneration.dll": "sha256-7+8VYn\/1ftvdIefU+XJhjMw6S2mJuoDN4OBjfSWZKMk=",
+      "System.Reflection.Emit.Lightweight.dll": "sha256-aYsPa6L0owDTtN5B9rDgvA\/AsP5tx4+pAgjv4CEk1YA=",
+      "System.Reflection.Primitives.dll": "sha256-hxfFX3tiD+nLIJJ3LYXXEjTgy7SB3NYfDDZWewoigfc=",
+      "System.Runtime.dll": "sha256-5mL8yxnvaLRyFUhGmz8KrlOldP3324YjWYG0ba\/h1V0=",
+      "System.Runtime.InteropServices.dll": "sha256-r5qoecQXoYwaoAt5L8or60ABZHQy\/v2eZq6Rzl10+ns=",
       "System.Runtime.InteropServices.JavaScript.dll": "sha256-u10hAlb7oIMi8jTcvm3+FDAtGc9QcEDfozYFXN5Tco0=",
       "System.Runtime.Numerics.dll": "sha256-DEq2xiKZhdoWoTEt+dOIdIxdyTLSLICBhgTQxW89fm8=",
       "System.Runtime.Serialization.Formatters.dll": "sha256-XvFxsSV8VhaROP9QTW2OTy1C3M4e4aRrIhpljWjzPp4=",
       "System.Runtime.Serialization.Primitives.dll": "sha256-7lnJQYFw9mF5KozdEFBYkJUKw4k+3+0M\/IqYIeMugco=",
       "System.Security.Cryptography.dll": "sha256-J9Ecd6ufCRpxuR+E05J2EjRi+ULeGXc4aWsJmZk1Aqg=",
+      "System.Text.Encoding.Extensions.dll": "sha256-hr0ntnx+eBM2yBbXJwlUlflIsZeqeHKc0+iEMsDboPM=",
       "System.Text.Encodings.Web.dll": "sha256-KwxETxZvEIN+F2cFoOmczAYLy\/vNVDN4Xr11FOMxkVM=",
       "System.Text.Json.dll": "sha256-nxjNuD3928D7QGKP8hDemATcAALylGMGqGTdDodupa8=",
       "System.Text.RegularExpressions.dll": "sha256-oxwDwVclEuJNtXkXgPVTJrr4\/BPlxSpu6HRDFWfmak8=",
-      "System.Xml.Linq.dll": "sha256-KzhMl+MY5MRvnujXW8ue8W2hWKrpBTy2RyyZz2FQeHo="
+      "System.Threading.dll": "sha256-YIdCvuf5DUvQiA1RJ6sPm3iSKVG4RsaIQuKCEHJPi\/M=",
+      "System.Xml.Linq.dll": "sha256-KzhMl+MY5MRvnujXW8ue8W2hWKrpBTy2RyyZz2FQeHo=",
+      "System.Xml.ReaderWriter.dll": "sha256-IGu5XKFHYHIFfkzRHGukc2OqM2Rq8IX3WDrmu2eBSes=",
+      "System.Xml.XDocument.dll": "sha256-9rhbY2LJL\/uwj4OLNgeaLrOWiCmatm1AbMJhDcWcajo="
     },
     "extensions": null,
-    "hash": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
-    "libraryStartupModules": null,
     "pdb": null,
-    "remoteSources": null,
     "runtime": {
       "dotnet.7.0.10.hvk1ulm9xr.js": "sha256-qJB30QURoyH3y3WyayHu6nMFIx2XNOkXCez7tagGpvE=",
       "dotnet.timezones.blat": "sha256-pf9chcB37Cf13KuuvScsozomnAUanMeCfvDr9Wqofh8=",
@@ -97,9 +94,6 @@
         "hash": "sha256-gdnUvePnfbvTJDGtaK1+TnCtuTiC5NZjlYZ9kgEpMO0="
       }
     },
-    "satelliteResources": null,
-    "vfs": null
-  },
-  "runtimeOptions": null,
-  "startupMemoryCache": null
+    "satelliteResources": null
+  }
 }
